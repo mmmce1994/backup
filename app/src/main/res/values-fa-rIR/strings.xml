@@ -1,0 +1,358 @@
+<resources>
+    <!-- no need -->
+    <string name="app_name">کیف پول یوتابیت</string>
+    <!-- no need -->
+    <string name="lang">fa</string>
+    <!-- android -->
+    <string name="utabit_address">آدرس یوتابیت</string>
+    <!-- android -->
+    <string name="fingerprint_description">تایید اثر انگشت</string>
+    <!-- android -->
+    <string name="fingerprint_hint">حسگر لمسی</string>
+    <!-- android -->
+    <string name="fingerprint_not_recognized">اثرانگشت شناسایی نشد . مجددا تلاش نمایید .</string>
+    <!-- android -->
+    <string name="fingerprint_success">اثرانگشت شناسایی شد</string>
+    <!-- android -->
+    <string name="fragmentdecoder_not_valid_utabit_address">آدرس بیت کوین نامعتبر</string>
+    <!-- android -->
+    <string name="fragmentdecoder_not_a_utabit_qr_code">کد QR یوتابیت وجود ندارد</string>
+    <!-- android -->
+    <string name="error">خطا</string>
+    <!-- android -->
+    <string name="invalid_address">آدرس نا معتبر</string>
+    <!-- android -->
+    <string name="invalid_address_with_holder">آدرس نامعتبر\n%1$s</string>
+    <!-- android -->
+    <string name="fingerprint_auth">مجوز با اثرانگشت</string>
+    <!-- android -->
+    <string name="rooted_message">در یک دستگاه روت شده, هر برنامه ای می تواند به داده های برنامه دیگر دسترسی داشته باشد(در نتیجه ممکن یوتابیت های شما را سرقت کنند).%s</string>
+    <!-- android -->
+    <string name="rooted_message_holder1">\nکیف پول خود را از این دستگاه پاک کنید و آن را در یک دستگاه امن بازیابی کنید.</string>
+    <!-- android -->
+    <string name="auth_required">نیاز به احراز هویت</string>
+    <!-- android -->
+    <string name="auth_message">لطفا قفل گوشی خود را برای ادامه باز نمایید</string>
+    <!-- android -->
+    <string name="camera_configuration_failed">پیکربندی دوربین موفقیت آمیر نبود</string>
+    <!-- android -->
+    <string name="device_security_compromised">امنیت دستگاه به خطر افتاده است</string>
+    <!-- android -->
+    <string name="confirm">تایید</string>
+    <!-- android -->
+    <string name="keystore_unavailable">کلید ذخیره سازی موقتا از دسترس خارج شده است ، لطفا بعدا دوباره سعی نمایید</string>
+    <!-- android -->
+    <string name="encryption_needed_for_wallet">برای حفظ ایمنی کیف پول ، به قفل صفحه دستگاه نیاز است. بدین منظور ، به مسیر \"تنظیمات\" > \"امنیت\" > \"قفل صفحه\" بروید و آن را فعال نمایید و سپس ادامه دهید.</string>
+    <!-- android -->
+    <string name="failed_to_sign_tx">امضای تراکنش موفقیت آمیز نبود</string>
+    <!-- android -->
+    <string name="payment_request_message_too_large">پیام درخواست پرداخت خیلی طولانی است</string>
+    <!-- android -->
+    <string name="expired_request">درخواست منقضی شده</string>
+    <!-- android -->
+    <string name="invalid_request">درخواست نامعتبر</string>
+    <!-- android -->
+    <string name="allow_camera_access">از طریق مسیر مقابل مجوز دسترسی برنامه به دوربین را صادر نمایید : \"تنظیمات\" > \"برنامه ها\" > \"UtaBitWallet\" > \"دسترسی ها\"</string>
+    <!-- android -->
+    <string name="insecure_keyboard_message">کیبورد های سفارشی شده مورد اعتماد نیستند و نمی توان برای وارد کردن عبارت بازیابی از آن ها استفاده کرد. لطفا در ادامه یک کیبورد گوگل را انتخاب نمایید.</string>
+    <!-- android -->
+    <string name="choose_an_email_client">روش اشتراک گذاری</string>
+    <!-- android -->
+    <string name="phrase_error">خطای بازیابی , لطفا با پشتیبانی برنامه تماس بگیرید</string>
+    <!-- android -->
+    <string name="recover_button">بازیابی</string>
+    <!-- android -->
+    <string name="fingerprint_spend_limit">محدودیت استفاده از اثرانگشت</string>
+    <!-- android -->
+    <string name="refresh">نوسازی</string>
+    <!-- android -->
+    <string name="breadwallet_v">کیف پول یوتابیت %1$d</string>
+    <!-- android -->
+    <string name="copyright_u00a9_2016_breadwallet_llc">copyright © 2017 UtaBitWallet llc</string>
+    <!-- android -->
+    <string name="app_support">پشتیبانی اپ : </string>
+    <!-- android -->
+    <string name="support_website">support@utabit.info</string>
+    <!-- android -->
+    <string name="exchange_rate_data_provided_by">نرخ تبدیل ارزها برگرفته شده از</string>
+    <!-- android -->
+    <string name="bitpay_com_rates">utabit.info/rates</string>
+    <!-- android -->
+    <string name="unknown_host">میزبانی ناشناخته</string>
+    <!-- android -->
+    <string name="connection_timed_out">خطای اتصال</string>
+
+    <string name="bad_recovery_phrase">عبارت بازیابی نامناسب</string>
+    <!-- checked -->
+    <string name="settingsall_rescan_instructions">اگر فکر می کنید بعضی از تراکنش ها را در از دست داده اید و یا در ارسال پول مشکل دارید ، بلاکچین را دوباره اسکن نمایید (اسکن دوباره ممکن است دقایقی طول بکشد)</string>
+    <!-- checked -->
+    <string name="wipewallet_instructions">برای خارج شدن از این کیف پول و بازیابی/ساخت کیف پول دیگر ، لطفا عبارت بازیابی مربوطه را وارد نمایید. توجه داشته باشید کیف پول فعلی و موجودی اش ، مجددا قابل بازیابی است .</string>
+    <!-- checked -->
+    <string name="dialog_recovery_phrase_warning">در صورت مفقودی گوشی تلفن تان ، با داشتن این عبارت می توانید کیف پول خود را بازیابی نمایید</string>
+    <!-- checked -->
+    <string name="toast_qr_tip">به دیگران اجازه دهید این کد QR را اسکن نمایند تا آدرس شما را دریافت کنند. با استفاده از این آدرس دیگران می توانند به کیف پول شما یوتابیت ارسال کنند.</string>
+    <!-- checked -->
+
+    <string name="toast_address_tip">این آدرس یوتابیت شماست . برای کپی روی آن فشار دهید یا آن را با ایمیل یا پیامک ارسال کنید .این آدرس با هر بار دریافت وجه ، تغییر خواهد کرد، اما آدرس های قدیمی همیشه قابل استفاده هستند.</string>
+    <string name="warning">هشدار</string>
+    <!-- checked -->
+    <string name="warning_text1">\nبه کسی اجازه ندهید عبارت بازیابی شما را ببیند\nدر غیر اینصورت آن ها می توانند یوتابیت های شما را خرج کنند.\n</string>
+    <!-- checked -->
+    <string name="warning_text2">\nهرگز عبارت بازیابی خود را درون\nبرنامه های مدیریت کلمه عبور و مشابه آن ها قرار ندهید .</string>
+    <!-- checked -->
+    <string name="show">نمایش</string>
+    <!-- checked -->
+    <string name="cancel">منصرف</string>
+    <!-- checked -->
+    <string name="mainfragment_clipboard_invalid_data">"آدرس یوتابیت معتبری در حافظه وجود ندارد"</string>
+    <!-- checked -->
+    <string name="ok">خب!</string>
+    <!-- checked -->
+    <string name="toast_address_copied">کپی شد</string>
+    <!-- checked -->
+    <string name="middle_view_tip_first">این موجودی یوتابیت شماست. یوتابیت یک ارز است. نرخ تبدیل این ارز با بازار تغییر میکند.</string>
+    <!-- checked -->
+    <string name="middle_view_tip_second">%1$s = %2$s = %3$s(utabit).</string>
+    <!-- checked -->
+    <string name="done">انجام شد</string>
+    <!-- checked -->
+    <string name="remind_me_later">بعدا به من یادآوری کن !</string>
+    <!-- checked -->
+    <string name="enter_old_passcode">کد رمز قبلی را وارد نمایید</string>
+    <!-- checked -->
+    <string name="choose_new_passcode">انتخاب کد رمز کیف پول</string>
+    <!-- checked -->
+    <string name="verify_passcode">بازبینی کد رمز</string>
+    <!-- checked -->
+    <string name="to">مقصد : </string>
+    <!-- checked -->
+    <string name="middle_view_settings">تنظیمات</string>
+    <!-- checked -->
+    <string name="middle_view_transaction_details">جزییات تراکنش</string>
+    <!-- checked -->
+    <string name="bad_payment_request">درخواست پرداخت نامناسب</string>
+    <!-- checked -->
+    <string name="more">بیشتر ...</string>
+    <!-- checked -->
+    <string name="sent">ارسال</string>
+    <!-- checked -->
+    <string name="sent_exclaimed">ارسال شد !</string>
+    <!-- checked -->
+    <string name="received">دریافت شد</string>
+    <!-- checked -->
+    <string name="received_amount">دریافت شد %1$s (%2$s)</string>
+    <!-- checked -->
+    <string name="wallet_address">آدرس کیف پول</string>
+    <!-- checked -->
+    <string name="payment_address">آدرس پرداخت</string>
+    <!-- checked -->
+    <string name="spent_address">آدرس پرداخت کننده</string>
+    <!-- checked -->
+    <string name="utabit_network_fee">هزینه شبکه یوتابیت</string>
+    <!-- checked -->
+    <string name="pay_address_from_clipboard">آدرس پرداخت از حافظه</string>
+    <!-- checked -->
+    <string name="could_not_transmit_payment">قادر به انتقال پرداخت به شبکه بیت کوین نیست</string>
+    <!-- checked -->
+    <string name="scan_qr_code">اسکن کد QR</string>
+    <!-- checked -->
+    <string name="request_an_amount">درخواست یک مبلغ</string>
+    <!-- checked -->
+    <string name="send_address_as_email">ارسال آدرس با ایمیل</string>
+    <!-- checked -->
+    <string name="send_address_as_message">ارسال آدرس با پیامک</string>
+    <!-- checked -->
+    <string name="copy_address_to_clipboard">کپی آدرس در حافظه</string>
+    <!-- checked -->
+    <string name="enter_passcode">کد رمز برای %s</string>
+    <!-- checked -->
+    <string name="address_already_in_your_wallet">این آدرس پرداخت متعلق به کیف پول خودتان است</string>
+    <!-- checked -->
+    <string name="syncing">در حال همگام سازی ... </string>
+    <!-- checked -->
+    <string name="payment_failed">پرداخت موفقیت آمیز نبود</string>
+    <!-- checked -->
+    <string name="address_already_used">\nاین آدرس قبلا استفاده شده است\n\nآدرس های یوتابیتی برای یک بار استفاده در نظر گرفته شده اند\n\nاستفاده دوباره آن ها سبب کاهش حریم خصوصی شما و دریافت کننده پول خواهد شد و اگر دریافت کننده مستقیما بر آدرس کنترلی نداشته باشد منجر به از دست رفتن خواهد شد </string>
+    <!-- checked -->
+    <string name="ignore">نادیده بگیر</string>
+    <!-- checked -->
+    <string name="verified_waiting">بررسی شد, منتظر تاییدیه</string>
+    <!-- checked -->
+    <string name="you_received_utabit">شما یوتابیت دریافت کردید</string>
+    <!-- checked -->
+    <string name="write_down_phrase_holder1">بعدی, عبارت زیر را در جایی امن یادداشت نمایید</string>
+    <!-- checked -->
+    <string name="write_down_phrase_holder2">عبارت زیر را در جایی امن یادداشت نمایید</string>
+    <!-- checked -->
+    <string name="write_down_phrase">\n%s\n\nاگر تلفن همراه تان را گم کردید, به کمک این عبارت می توانید آن را بازیابی نمایید</string>
+    <!-- checked -->
+    <string name="unverified">بررسی نشده</string>
+    <!-- checked -->
+    <string name="important">مهم</string>
+    <!-- checked -->
+    <string name="moved">منتقل شد</string>
+    <!-- checked -->
+    <string name="receive_money">دریافت پول :</string>
+    <!-- checked -->
+    <string name="send_money">ارسال پول :</string>
+    <!-- checked -->
+    <string name="new_wallet">کیف پول جدید</string>
+    <!-- checked -->
+    <string name="recover_wallet">بازیابی کیف پول</string>
+    <!-- checked -->
+    <string name="wipe">پاک کردن</string>
+    <!-- checked -->
+    <string name="generate_recovery_phrase">تولید عبارت بازیابی</string>
+    <!-- checked -->
+    <string name="request">درخواست !</string>
+    <!-- checked -->
+    <string name="pay">پرداخت !</string>
+    <!-- checked -->
+    <string name="at_this_address">دریافت یوتابیت ها در این آدرس : %s</string>
+    <!-- checked -->
+    <string name="generate_phrase_text1">ایجاد یک کیف پول جدید با تولید عبارت بازیابی آن</string>
+    <!-- checked -->
+    <string name="generate_phrase_text2">در صورت مفقودی گوشی تلفن تان ، با داشتن این عبارت می توانید کیف پول خود را بازیابی نمایید</string>
+    <!-- checked -->
+    <string name="i_wrote_it_down">نوشتم :</string>
+    <!-- checked -->
+    <string name="no_transactions">تراکنشی وجود ندارد</string>
+    <!-- checked -->
+    <string name="recovery_phrase">عبارت بازیابی : </string>
+    <!-- checked -->
+    <string name="use_passcode">کد رمز</string>
+    <!-- checked -->
+    <string name="try_again">try again in %1$d %2$s</string>
+    <!-- checked -->
+    <string name="wallet_disabled">کیف پول غیر فعال شد</string>
+    <!-- checked -->
+    <string name="minute">دقیقه</string>
+    <!-- checked -->
+    <string name="minutes">دقیقه</string>
+    <!-- checked -->
+    <string name="reset">ریست</string>
+    <!-- checked -->
+    <string name="recovery_phrase_label">بازیابی عبارت</string>
+    <!-- checked -->
+    <string name="phrase_no_match">عبارت بازیابی همخوانی ندارد</string>
+    <!-- checked -->
+    <string name="please_write_it_down">عبارت زیر را در جایی امن یادداشت نمایید</string>
+    <!-- checked -->
+    <string name="settings">تنظیمات</string>
+    <!-- checked -->
+    <string name="about">درباره ما</string>
+    <!-- checked -->
+    <string name="local_currency">ارز محلی</string>
+    <!-- checked -->
+    <string name="change_passcode">تغییر کد رمز</string>
+    <!-- checked -->
+    <string name="start_recover_another_wallet">شروع/بازیابی کیف پول دیگر</string>
+    <!-- checked -->
+    <string name="transaction_history">سابقه تراکنش ها</string>
+    <!-- checked -->
+    <string name="import_private_key">وارد کردن کلید خصوصی</string>
+    <string name="buy_utabit">خرید یوتابیت</string>
+    <!-- checked -->
+    <string name="rescan_blockchain">اسکن دوباره بلاکچین</string>
+    <!-- checked -->
+    <string name="confirm_">تایید:</string>
+    <!-- checked -->
+    <string name="id">شناسه : </string>
+    <!-- checked -->
+    <string name="status">وضعیت : </string>
+    <!-- checked -->
+    <string name="amount">مبلغ : </string>
+    <!-- checked -->
+    <string name="from">مبدا : </string>
+    <!-- checked -->
+    <string name="copy">کپی</string>
+    <string name="not_connected">اتصال برقرار نشد</string>
+    <!-- checked -->
+    <string name="password_protected_key">کلید حفاظت کلمه عبور</string>
+    <!-- checked -->
+    <string name="utabit_payment_cant_be_less">پرداخت های یوتابیت نمی توانند از %s کمتر باشند</string>
+    <!-- checked -->
+    <string name="amount_too_small">مبلغ بسیار کوچک است</string>
+    <!-- checked -->
+    <string name="change_payment_amount">مبلغ پرداخت را تغییر می دهید ؟</string>
+    <!-- checked -->
+    <string name="nr_confirmations">%d تاییدیه</string>
+    <!-- checked -->
+    <string name="nr_confirmations0">0 تاییدیه</string>
+    <string name="nr_confirmations1">1 تاییدیه</string>
+    <!-- checked -->
+    <string name="confirmed_in_block_nr">در بلوک #%d تایید شد </string>
+    <!-- checked -->
+    <string name="change">تغییر</string>
+    <!-- checked -->
+    <string name="attempts_remaining">\n تلاش باقی مانده است \n%d </string>
+    <!-- checked -->
+    <string name="attempt_remaining1">\n1 تلاش باقیمانده\n</string>
+    <!-- checked -->
+    <string name="priv_key_empty">کلید خصوصی خالی است</string>
+    <!-- checked -->
+    <string name="could_not_sweep_the_balance">couldn\'t sweep balance</string>
+    <!-- checked -->
+    <string name="send_money_from_privkey_message">مبلغ %1$s (%2$s) از این کلید خصوصی به کیف پول شما ارسال شود ؟ شبکه یوتابیت مبلغ %3$s (%4$s) را به عنوان هزینه شبکه دریافت خواهد کرد </string>
+    <!-- checked -->
+    <string name="blocks">بلوک #%1$d از %2$d</string>
+    <!-- checked -->
+    <string name="insufficient_funds">موجودی ناکافی</string>
+    <!-- checked -->
+    <string name="checking_privkey_balance">در حال چک کردن موجودی کلید خصوصی ...</string>
+    <!-- checked -->
+    <string name="transaction_rejected">تراکنش پذیرفته نشد</string>
+    <!-- checked -->
+    <string name="wallet_out_of_sync_message">کیف پول شما ممکن است با شبکه همگام نباشد.\nبا اسکن مجدد بلاکچین غالبا این مشکل حل خواهد شد.</string>
+    <!-- checked -->
+    <string name="rescan">اسکن دوباره</string>
+    <!-- checked -->
+    <string name="reduce_payment_amount_by">کاهش مبلغ پرداختی با \n%1$s (%2$s)?</string>
+    <!-- checked -->
+    <string name="insufficient_funds_for_fee">موجودی ناکافی برای هزینه شبکه یوتابیت</string>
+    <!-- checked -->
+    <string name="not_connected_network">ارتباط با شبکه یوتابیت برقرار نشد</string>
+    <!-- checked -->
+    <string name="could_not_make_payment">قادر به پرداخت نیست</string>
+    <!-- checked -->
+    <string name="payee_not_certified">payee identity isn\'t certified</string>
+    <!-- checked -->
+    <string name="scan_qr_tip">به منظور دستیابی به آدرس یوتابیت دیگران کافیست کد QR آن ها را اسکن نمایید. با داشتن آدرس هر کیف پولی میتوانید به آن پول ارسال کنید.</string>
+    <!-- checked -->
+    <string name="pay_address_tip">همچنین می توانید آدرس یوتابیت را در حافظه کلیپ بورد کپی کنید. یک آدرس یوتابیت همیشه با \'1\' یا \'3\' شروع می شود.</string>
+    <!-- checked -->
+    <string name="not_a_recovery_phrase_word">این کلمه در عبارت بازیابی شما نیست\"%s\"</string>
+    <!-- checked -->
+    <string name="recovery_phrase_must_have_12_words">عبارت بازیابی باید شامل %d کلمه باشد</string>
+    <!-- checked -->
+    <string name="show_phrase">نمایش عبارت</string>
+    <!-- checked -->
+    <string name="copied">کپی شد</string>
+    <!-- android -->
+    <string name="continue_button">ادامه</string>
+    <!-- android -->
+    <string name="phrase_flow2">لطفا عبارت بازیابی خود را وارد نمایید.</string>
+    <!-- android -->
+    <string name="syncing_in_progress">در حال اجرای همگام سازی</string>
+    <!-- android -->
+    <string name="wait_for_sync_to_finish">برای ارسال وجه ، لطفا تا پایان همگام سازی صبر نمایید .</string>
+    <!-- android -->
+    <string name="skip">عبور</string>
+    <string name="next">بعدی</string>
+    <string name="step_holder">گام %1$d از %2$d</string>
+    <string name="recovery_phrase_set">عبارت بازیابی تکمیل شد!</string>
+    <string name="write_down_your_recovery_phrase">عبارت بازیابی \n خود را وارد نمایید</string>
+    <string name="protect_your_wallet">protect your wallet and ensure you can recover it after replacing or resetting your phone, or disabling your lock screen</string>
+    <string name="word_nr2"> عبارت بازیابی شما کدام است ؟<b>دوم</b> کلمه</string>
+    <string name="word_nr3"> عبارت بازیابی شما کدام است؟<b>سوم</b> کلمه</string>
+    <string name="word_nr4"> عبارت بازیابی شما کدام است ؟<b>چهارم</b> کلمه</string>
+    <string name="word_nr5"> عبارت بازیابی شما کدام است ؟<b>پنجم</b> کلمه</string>
+    <string name="word_nr6"> عبارت بازیابی شما کدام است ؟<b>ششم</b> کلمه</string>
+    <string name="word_nr7"> عبارت بازیابی شما کدام است ؟<b>هفتم</b> کلمه</string>
+    <string name="word_nr8"> عبارت بازیابی شما کدام است ؟<b>هشتم</b> کلمه</string>
+    <string name="word_nr9"> عبارت بازیابی شما کدام است ؟<b>نهم</b> کلمه</string>
+    <string name="word_nr10"> عبارت بازیابی شما کدام است ؟<b>دهم</b> کلمه</string>
+    <string name="word_nr11"> عبارت بازیابی شما کدام است ؟<b>یازدهم</b> کلمه</string>
+    <string name="early_access">دسترسی اولیه</string>
+
+</resources>

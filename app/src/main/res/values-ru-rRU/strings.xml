@@ -1,0 +1,356 @@
+<resources>
+    <!-- no need -->
+    <string name="app_name">UtaBitWallet</string>
+    <!-- no need -->
+    <string name="lang">ru</string>
+    <!-- android -->
+    <string name="utabit_address">Биткойн-адрес</string>
+    <!-- android -->
+    <string name="fingerprint_description">confirm fingerprint</string>
+    <!-- android -->
+    <string name="fingerprint_hint">touch sensor</string>
+    <!-- android -->
+    <string name="fingerprint_not_recognized">fingerprint not recognized. Try again.</string>
+    <!-- android -->
+    <string name="fingerprint_success">fingerprint recognized</string>
+    <!-- android -->
+    <string name="fragmentdecoder_not_valid_utabit_address">некорректный utabit-адрес</string>
+    <!-- android -->
+    <string name="fragmentdecoder_not_a_utabit_qr_code">не utabit QR-код</string>
+    <!-- android -->
+    <string name="error">ошибка</string>
+    <!-- android -->
+    <string name="invalid_address">invalid address</string>
+    <!-- android -->
+    <string name="invalid_address_with_holder">invalid address\n%1$s</string>
+    <!-- android -->
+    <string name="fingerprint_auth">fingerprint authorization</string>
+    <!-- android -->
+    <string name="rooted_message">On a \'rooted\' device, any app can access any other app\'s keystore data (and steal your utabits).%s</string>
+    <!-- android -->
+    <string name="rooted_message_holder1">\nWipe this wallet immediately and restore on a secure device.</string>
+    <!-- android -->
+    <string name="auth_required">Authentication required</string>
+    <!-- android -->
+    <string name="auth_message">Please unlock your device to continue.</string>
+    <!-- android -->
+    <string name="camera_configuration_failed">camera configuration failed</string>
+    <!-- android -->
+    <string name="device_security_compromised">БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ</string>
+    <!-- android -->
+    <string name="confirm">ПОДТВЕРДИТЕ</string>
+    <!-- android -->
+    <string name="keystore_unavailable">The KeyStore is temporary unavailable, please try again later</string>
+    <!-- android -->
+    <string name="encryption_needed_for_wallet">A device screen lock is needed to safeguard your wallet. Go to \"Settings\" > \"Security\" > \"Screen lock\" and enable to continue.</string>
+    <!-- android -->
+    <string name="failed_to_sign_tx">Failed to sign transaction</string>
+    <!-- android -->
+    <string name="payment_request_message_too_large">PaymentRequest message is too large</string>
+    <!-- android -->
+    <string name="expired_request">Expired request</string>
+    <!-- android -->
+    <string name="invalid_request">Invalid request</string>
+    <!-- android -->
+    <string name="allow_camera_access">allow camera access in \"Settings\" > \"Apps\" > \"breadwallet\" > \"Permissions\"</string>
+    <!-- android -->
+    <string name="insecure_keyboard_message">Custom keyboards are insecure and cannot be used to enter a recovery phrase. Press continue to select a Google keyboard.</string>
+    <!-- android -->
+    <string name="choose_an_email_client">Choose an Email client</string>
+    <!-- android -->
+    <string name="phrase_error">Recovery phrase error, please contact support at breadwallet.com</string>
+    <!-- android -->
+    <string name="recover_button">recover</string>
+    <!-- android -->
+    <string name="fingerprint_spend_limit">fingerprint spend limit</string>
+    <!-- android -->
+    <string name="refresh">обновление</string>
+    <!-- android -->
+    <string name="breadwallet_v">UtaBitWallet %1$d</string>
+    <!-- android -->
+    <string name="copyright_u00a9_2016_breadwallet_llc">copyright © 2017 UtaBitWallet llc</string>
+    <!-- android -->
+    <string name="app_support">app support:</string>
+    <!-- android -->
+    <string name="support_website">support@utabit.info</string>
+    <!-- android -->
+    <string name="exchange_rate_data_provided_by">exchange rate data provided by</string>
+    <!-- android -->
+    <string name="bitpay_com_rates">bitpay.com/rates</string>
+    <!-- android -->
+    <string name="unknown_host">unknown host</string>
+    <!-- android -->
+    <string name="connection_timed_out">connection timed out</string>
+
+    <string name="bad_recovery_phrase">некорректная фраза восстановления</string>
+    <!-- checked -->
+    <string name="settingsall_rescan_instructions">пересканировать blockchain, если вы считаете, что могли пропустить транзакцию или возникли проблемы отправки (повторное сканирование может занять несколько минут)</string>
+    <!-- checked -->
+    <string name="wipewallet_instructions">Enter this wallet\'s recovery phrase to wipe it and start/recover another. Your current balance remains on this phrase.</string>
+    <!-- checked -->
+    <string name="dialog_recovery_phrase_warning">if you ever lose your phone, you will need this phrase to recover your wallet</string>
+    <!-- checked -->
+    <string name="toast_qr_tip">Другие пользователи могут сканировать этот QR код, чтобы получить ваш utabit-адрес. Кто угодно сможет отправить биткойны на ваш кошелек путём передачи их на ваш адрес.</string>
+    <!-- checked -->
+    <string name="toast_address_tip">Это ваш utabit-адрес. Нажмите, чтобы скопировать его или отправить его по электронной почте или SMS. Адрес будет меняться каждый раз, когда вы получаете средства, но старые адреса останутся работоспособными.</string>
+    <string name="warning">ВНИМАНИЕ</string>
+    <!-- checked -->
+    <string name="warning_text1">\nНЕ позволяйте никому видеть вашу фразу восстановления, иначе они смогут потратить ваши utabit.\n</string>
+    <!-- checked -->
+    <string name="warning_text2">\nNEVER type your recovery phrase into\npassword managers or any software.</string>
+    <!-- checked -->
+    <string name="show">показать</string>
+    <!-- checked -->
+    <string name="cancel">отменить</string>
+    <!-- checked -->
+    <string name="mainfragment_clipboard_invalid_data">"в буфере обмена нет корректного utabit-адреса"</string>
+    <!-- checked -->
+    <string name="ok">ok</string>
+    <!-- checked -->
+    <string name="toast_address_copied">copied</string>
+    <!-- checked -->
+    <string name="middle_view_tip_first">Это ваш баланс utabit. Utabit является валютой. Валютный курс меняется в соответствие с рынком.</string>
+    <!-- checked -->
+    <string name="middle_view_tip_second">%1$s = %2$s = %3$s(utabit)</string>
+    <!-- checked -->
+    <string name="done">готово</string>
+    <!-- checked -->
+    <string name="remind_me_later">remind me later</string>
+    <!-- checked -->
+    <string name="enter_old_passcode">введите старый пароль</string>
+    <!-- checked -->
+    <string name="choose_new_passcode">придумайте пароль к кошельку</string>
+    <!-- checked -->
+    <string name="verify_passcode">подтвердите код</string>
+    <!-- checked -->
+    <string name="to">кому: </string>
+    <!-- checked -->
+    <string name="middle_view_settings">настройки</string>
+    <!-- checked -->
+    <string name="middle_view_transaction_details">transaction details</string>
+    <!-- checked -->
+    <string name="bad_payment_request">некорректный платежный запрос</string>
+    <!-- checked -->
+    <string name="more">ещё...</string>
+    <!-- checked -->
+    <string name="sent">отправлено</string>
+    <!-- checked -->
+    <string name="sent_exclaimed">отправлено!</string>
+    <!-- checked -->
+    <string name="received">получено</string>
+    <!-- checked -->
+    <string name="received_amount">получено %1$s (%2$s)</string>
+    <!-- checked -->
+    <string name="wallet_address">адрес кошелька</string>
+    <!-- checked -->
+    <string name="payment_address">адрес оплаты</string>
+    <!-- checked -->
+    <string name="spent_address">потраченный адрес</string>
+    <!-- checked -->
+    <string name="utabit_network_fee">комиссия сети utabit</string>
+    <!-- checked -->
+    <string name="pay_address_from_clipboard">pay address from clipboard</string>
+    <!-- checked -->
+    <string name="could_not_transmit_payment">couldn\'t transmit payment to utabit network</string>
+    <!-- checked -->
+    <string name="scan_qr_code">scan QR code</string>
+    <!-- checked -->
+    <string name="request_an_amount">запросить сумму</string>
+    <!-- checked -->
+    <string name="send_address_as_email">отправить адрес по почте</string>
+    <!-- checked -->
+    <string name="send_address_as_message">отправить адрес в сообщении</string>
+    <!-- checked -->
+    <string name="copy_address_to_clipboard">скопировать адрес в буфер обмена</string>
+    <!-- checked -->
+    <string name="enter_passcode">код доступа для %s</string>
+    <!-- checked -->
+    <string name="address_already_in_your_wallet">этот адрес уже находится в вашем бумажнике</string>
+    <!-- checked -->
+    <string name="syncing">синхронизирую...</string>
+    <!-- checked -->
+    <string name="payment_failed">не удалось совершить платёж</string>
+    <!-- checked -->
+    <string name="address_already_used">\nADDRESS ALREADY USED\n\nutabit addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn\'t directly control the address</string>
+    <!-- checked -->
+    <string name="ignore">игнорировать</string>
+    <!-- checked -->
+    <string name="verified_waiting">проверено, ожидание подтверждения</string>
+    <!-- checked -->
+    <string name="you_received_utabit">вы получили биткойны!</string>
+    <!-- checked -->
+    <string name="write_down_phrase_holder1">теперь запишите вашу фразу восстановления</string>
+    <!-- checked -->
+    <string name="write_down_phrase_holder2">ЗАПИШИТЕ ВАШУ ФРАЗУ ВОССТАНОВЛЕНИЯ</string>
+    <!-- checked -->
+    <string name="write_down_phrase">\n%s\n\nif you ever lose your phone, you will need it to recover your wallet</string>
+    <!-- checked -->
+    <string name="unverified">неподтверждённый</string>
+    <!-- checked -->
+    <string name="important">ВАЖНО</string>
+    <!-- checked -->
+    <string name="moved">перемещено</string>
+    <!-- checked -->
+    <string name="receive_money">receive money:</string>
+    <!-- checked -->
+    <string name="send_money">отправлять деньги:</string>
+    <!-- checked -->
+    <string name="new_wallet">hовый кошелек</string>
+    <!-- checked -->
+    <string name="recover_wallet">recover wallet</string>
+    <!-- checked -->
+    <string name="wipe">стереть</string>
+    <!-- checked -->
+    <string name="generate_recovery_phrase">generate recovery phrase</string>
+    <!-- checked -->
+    <string name="request">запрос</string>
+    <!-- checked -->
+    <string name="pay">оплатить</string>
+    <!-- checked -->
+    <string name="at_this_address">Получить биткойны на этот адрес: %s</string>
+    <!-- checked -->
+    <string name="generate_phrase_text1">start a new wallet by generating a wallet recovery phrase</string>
+    <!-- checked -->
+    <string name="generate_phrase_text2">if you ever lose your phone, you will need this phrase to recover your wallet</string>
+    <!-- checked -->
+    <string name="i_wrote_it_down">I wrote it down:</string>
+    <!-- checked -->
+    <string name="no_transactions">hет транзакция</string>
+    <!-- checked -->
+    <string name="recovery_phrase">фраза восстановления:</string>
+    <!-- checked -->
+    <string name="use_passcode">пароль</string>
+    <!-- checked -->
+    <string name="try_again">попробуйте еще раз через %1$d %2$s</string>
+    <!-- checked -->
+    <string name="wallet_disabled">кошелек отключен</string>
+    <!-- checked -->
+    <string name="minute">минут</string>
+    <!-- checked -->
+    <string name="minutes">минуты</string>
+    <!-- checked -->
+    <string name="reset">сброс</string>
+    <!-- checked -->
+    <string name="recovery_phrase_label">фраза восстановления</string>
+    <!-- checked -->
+    <string name="phrase_no_match">фразы восстановления не совпадают</string>
+    <!-- checked -->
+    <string name="please_write_it_down">please write it down</string>
+    <!-- checked -->
+    <string name="settings">настройки</string>
+    <!-- checked -->
+    <string name="about">о программе</string>
+    <!-- checked -->
+    <string name="local_currency">local currency</string>
+    <!-- checked -->
+    <string name="change_passcode">изменить пароль</string>
+    <!-- checked -->
+    <string name="start_recover_another_wallet">start/recover another wallet</string>
+    <!-- checked -->
+    <string name="transaction_history">история транзакций</string>
+    <!-- checked -->
+    <string name="import_private_key">импортировать закрытый ключ</string>
+    <string name="buy_utabit">Buy utabit</string>
+    <!-- checked -->
+    <string name="rescan_blockchain">пересканировать blockchain</string>
+    <!-- checked -->
+    <string name="confirm_">ПОДТВЕРДИТЕ:</string>
+    <!-- checked -->
+    <string name="id">id:</string>
+    <!-- checked -->
+    <string name="status">статус:</string>
+    <!-- checked -->
+    <string name="amount">сумму:</string>
+    <!-- checked -->
+    <string name="from">от:</string>
+    <!-- checked -->
+    <string name="copy">скопировать</string>
+    <string name="not_connected">не подключено</string>
+    <!-- checked -->
+    <string name="password_protected_key">защищённый паролем ключ</string>
+    <!-- checked -->
+    <string name="utabit_payment_cant_be_less">utabit-платежи не могут быть меньше, чем %@</string>
+    <!-- checked -->
+    <string name="amount_too_small">сумма слишком мала</string>
+    <!-- checked -->
+    <string name="change_payment_amount">изменить сумму платежа?</string>
+    <!-- checked -->
+    <string name="nr_confirmations">подтверждений: %d</string>
+    <!-- checked -->
+    <string name="nr_confirmations0">0 подтверждений</string>
+    <string name="nr_confirmations1">1 подтверждение</string>
+    <!-- checked -->
+    <string name="confirmed_in_block_nr">подтверждено в блоке #%d</string>
+    <!-- checked -->
+    <string name="change">изменить</string>
+    <!-- checked -->
+    <string name="attempts_remaining">\nОсталось попыток: %d\n</string>
+    <!-- checked -->
+    <string name="attempt_remaining1">\nосталась 1 попытка\n</string>
+    <!-- checked -->
+    <string name="priv_key_empty">этот закрытый ключ пустой</string>
+    <!-- checked -->
+    <string name="could_not_sweep_the_balance">не получилось перенести баланс</string>
+    <!-- checked -->
+    <string name="send_money_from_privkey_message">Send %1$s (%2$s) from this private key into your wallet? The utabit network will receive a fee of %3$s (%4$s).</string>
+    <!-- checked -->
+    <string name="blocks">блок #%1$d в %2$d</string>
+    <!-- checked -->
+    <string name="insufficient_funds">недостаточно средств</string>
+    <!-- checked -->
+    <string name="checking_privkey_balance">проверка баланса по закрытому ключу...</string>
+    <!-- checked -->
+    <string name="transaction_rejected">транзакция отклонена</string>
+    <!-- checked -->
+    <string name="wallet_out_of_sync_message">Кажется, ваш кошелек рассинхронизирован.\nЭто может быть исправлено путём повторного сканирования blockchain.</string>
+    <!-- checked -->
+    <string name="rescan">повторное сканирование</string>
+    <!-- checked -->
+    <string name="reduce_payment_amount_by">reduce payment amount by\n%1$s (%2$s)?</string>
+    <!-- checked -->
+    <string name="insufficient_funds_for_fee">недостаточно средств для комиссии сети utabit</string>
+    <!-- checked -->
+    <string name="not_connected_network">not connected to the utabit network</string>
+    <!-- checked -->
+    <string name="could_not_make_payment">couldn\'t make payment</string>
+    <!-- checked -->
+    <string name="payee_not_certified">payee identity isn\'t certified</string>
+    <!-- checked -->
+    <string name="scan_qr_tip">Scan someone else\'s QR code to get their utabit address. You can send a payment to anyone with an address.</string>
+    <!-- checked -->
+    <string name="pay_address_tip">Адреса utabit также могут быть скопированы в буфер обмена. Utabit-адрес всегда начинается с «1» или «3».</string>
+    <!-- checked -->
+    <string name="not_a_recovery_phrase_word">\"%s\" is not a recovery phrase word</string>
+    <!-- checked -->
+    <string name="recovery_phrase_must_have_12_words">фраза восстановления должна состоять из %d слов</string>
+    <!-- checked -->
+    <string name="show_phrase">показать фразу</string>
+    <!-- checked -->
+    <string name="copied">копирован(а)</string>
+    <!-- android -->
+    <string name="continue_button">продолжить</string>
+    <!-- android -->
+    <string name="phrase_flow2">please write down your phrase.</string>
+    <!-- android -->
+    <string name="syncing_in_progress">bыполняется синхронизация..</string>
+    <!-- android -->
+    <string name="wait_for_sync_to_finish">Please wait for syncing to finish before sending funds.</string>
+    <!-- android -->
+    <string name="skip">пропускать</string>
+    <string name="next">next</string>
+    <string name="step_holder">step %1$d of %2$d</string>
+    <string name="recovery_phrase_set">recovery phrase set</string>
+    <string name="write_down_your_recovery_phrase">WRITE DOWN YOUR \nRECOVERY PHRASE</string>
+    <string name="protect_your_wallet">protect your wallet and ensure you can recover it after replacing or resetting your phone, or disabling your lock screen</string>
+    <string name="word_nr2">select the <b>2nd</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr3">select the <b>3rd</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr4">select the <b>4th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr5">select the <b>5th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr6">select the <b>6th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr7">select the <b>7th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr8">select the <b>8th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr9">select the <b>9th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr10">select the <b>10th</b> word of your recovery phrase from the list below</string>
+    <string name="word_nr11">select the <b>11th</b> word of your recovery phrase from the list below</string>
+    <string name="early_access">early access</string>
+</resources>
